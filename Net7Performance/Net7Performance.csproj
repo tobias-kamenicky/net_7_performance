@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+<!--        <PublishAot>true</PublishAot>-->
+<!--        <RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+        
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+        <LangVersion>preview</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <ServerGarbageCollection>true</ServerGarbageCollection>
+<!--        <TieredPGO>true</TieredPGO>-->
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="benchmarkdotnet" Version="0.13.2" />
+        <PackageReference Include="CommunityToolkit.HighPerformance" Version="8.0.0" />
+        <PackageReference Include="System.Linq" Version="4.3.0" />
+        <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+        <PackageReference Include="System.Linq.Async.Queryable" Version="6.0.1" />
+        <PackageReference Include="System.Linq.Parallel" Version="4.3.0" />
+        <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
+    </ItemGroup>
+</Project>

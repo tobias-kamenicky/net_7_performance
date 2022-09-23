@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7Performance", "Net7Performance\Net7Performance.csproj", "{84F8BCCD-D2BE-40FA-B740-659292F08243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7Performance.Demo", "Net7Performance.Demo\Net7Performance.Demo.csproj", "{EA4F0074-411B-4839-BCB9-C812822DD516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F8BCCD-D2BE-40FA-B740-659292F08243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F8BCCD-D2BE-40FA-B740-659292F08243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F8BCCD-D2BE-40FA-B740-659292F08243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F8BCCD-D2BE-40FA-B740-659292F08243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4F0074-411B-4839-BCB9-C812822DD516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4F0074-411B-4839-BCB9-C812822DD516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4F0074-411B-4839-BCB9-C812822DD516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4F0074-411B-4839-BCB9-C812822DD516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
